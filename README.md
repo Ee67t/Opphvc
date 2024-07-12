@@ -1,446 +1,242 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Jim's RNG", "Ocean")
-
-local Tab = Window:NewTab("Main Menu")
-local Section = Tab:NewSection("All Auras")
-
-Section:NewButton("Ancient", "Ancient", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Ancient")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-
-end)
-
-Section:NewButton("Ancient Prophecy", "Ancient Prophecy", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Ancient Prophecy")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-
-end)
-
-Section:NewButton("Devourer of Gods", "Devourer of Gods", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Devourer of Gods")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-
-end)
-
-Section:NewButton("Arcade", "Arcade", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Arcade")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Gluttony", "Gluttony", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Gluttony")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Baseplate", "Baseplate", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Baseplate")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Nebula", "Nebula", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Nebula")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Earth", "Earth", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Earth")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Rifter : Classic", "Rifter : Classic", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Rifter : Classic")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Bey, The Gambling One", "Bey, The Gambling One", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Bey, The Gambling One")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Wishing Star : Classic", "Wishing Star : Classic", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Wishing Star : Classic")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Supreme Calamitas", "Supreme Calamitas", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Supreme Calamitas")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Abomination", "Abomination", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Abomination")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("1x1x1x1x1", "1x1x1x1x1", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("1x1x1x1x1")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Mr. BEASTT!!!!!!!!!!!!!!", "Mr. BEASTT!!!!!!!!!!!!!!", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Mr. BEASTT!!!!!!!!!!!!!!")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Arcade : グラインド地区", "Arcade : グラインド地区", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Arcade : グラインド地区")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Polychrome", "Polychrome", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Polychrome")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Asgore", "Asgore", function()
-   local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Asgore")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Brick Wall", "Brick Wall", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Brick Wall")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Arcade : Classic", "Arcade : Classic", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Arcade : Classic")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Cubed", "Cubed", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Cubed")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Greed", "Greed", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Greed")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Elderic", "Elderic", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Elderic")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Epic", "Epic", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Epic")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Exotica", "Exotica", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Exotica")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Divinity", "Divinity", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Divinity")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Exotica : FULL POWER", "Exotica : FULL POWER", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Exotica : FULL POWER")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Exotica : OVERDRIVE", "Exotica : OVERDRIVE", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Exotica : OVERDRIVE")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("The Bloxxer", "The Bloxxer", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("The Bloxxer")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Exotica Maxinus", "Exotica Maxinus", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Exotica Maxinus")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Brick Wall : Legacy", "Brick Wall : Legacy", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Brick Wall : Legacy")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Fractal : Singularity", "Fractal : Singularity", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Fractal : Singularity")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Fractal", "Fractal", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Fractal")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Black Flame", "Black Flame", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Black Flame")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Singularity Point : TON 618", "Singularity Point : TON 618", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Singularity Point : TON 618")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Gabriel Judge Of Hell", "Gabriel Judge Of Hell", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Gabriel Judge Of Hell")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Gabriel The Apostate Of Hate", "Gabriel The Apostate Of Hate", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Gabriel The Apostate Of Hate")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Gambler", "Gambler", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Gambler")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("1 Grand : 2009", "1 Grand : 2009", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("1 Grand : 2009")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Void", "Void", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Void")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Fractured Time", "Fractured Time", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Fractured Time")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Void : Chaos", "Void : Chaos", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Void : Chaos")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Brick Wall : Nature", "Brick Wall : Nature", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Brick Wall : Nature")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Jazz Zone", "Jazz Zone", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Jazz Zone")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Pride", "Pride", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Pride")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Legendary", "Legendary", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Legendary")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("V2", "V2", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("V2")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Limbo", "Limbo", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Limbo")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
-end)
-
-Section:NewButton("Portal", "Portal", function()
-    local args = {
-    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Auras"):WaitForChild("Portal")
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AuraEquip"):FireServer(unpack(args))
-    
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Catch_dde's Hub | Horrors RNG", HidePremium = false, IntroEnabled = false, SaveConfig = true, ConfigFolder = "ExoConfig"})
+
+-- Values
+getgenv().setSpeed = 0
+getgenv().getLuck = false
+getgenv().getLuckPerSecond = false
+getgenv().autoRoll = false
+getgenv().autoSkip = true
+getgenv().fastRoll = false
+getgenv().shouldDelay = true
+
+-- Services and Events
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local InventoryEvent = ReplicatedStorage.Events.InventoryEvent
+local RollEvent = ReplicatedStorage.Events.StartRoll
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+local UserInputService = game:GetService("UserInputService")
+
+-- Functions
+local function fireEquipEvent()
+    InventoryEvent:FireServer("Equip", "Super Luck Potion", "Usable")
+end
+
+local function fireRollEvent()
+    RollEvent:FireServer()
+end
+
+function startLuck()
+    while getLuck == true do
+        task.wait(0.000000000000001)
+        for i = 1, 15 do
+            fireEquipEvent()
+        end
+    end
+end
+
+function startLuckPerSec()
+    while getLuckPerSecond == true do
+        task.wait(0.5)
+        for i = 1, 25 do
+            fireEquipEvent()
+        end
+    end
+end
+
+function startRoll()
+    while autoRoll == true do
+        fireRollEvent()
+        Wait()
+    end
+end
+
+function fastRollFunc()
+    while fastRoll == true do
+
+        if autoSkip then
+            local args = {
+                [1] = "Skip"
+            }
+            ReplicatedStorage.Events.RolledFromClient:FireServer(unpack(args))
+        else
+            local args = {
+                [1] = "Equip"
+            }
+            ReplicatedStorage.Events.RolledFromClient:FireServer(unpack(args))
+        end
+
+        Wait()
+    end
+end
+
+function giveLuckInstant()
+    for i = 1, 25 do
+        if shouldDelay then
+            Wait()
+        end
+        fireEquipEvent()
+    end
+end
+
+function giveLuckInstantOp()
+    for i = 1, 250 do
+        if shouldDelay then
+            Wait()
+        end
+        fireEquipEvent()
+    end
+end
+
+function giveLuckInstantOpOp()
+    for i = 1, 1000 do
+        if shouldDelay then
+            Wait()
+        end
+        fireEquipEvent()
+    end
+end
+
+-- Draggable GUI
+local function makeDraggable(gui)
+    local dragging
+    local dragInput
+    local dragStart
+    local startPos
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    gui.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = gui.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    gui.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if dragging and input == dragInput then
+            update(input)
+        end
+    end)
+end
+
+-- Tabs
+local luckTab = Window:MakeTab({
+    Name = "Luck",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local rollTab = Window:MakeTab({
+    Name = "Rolling",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local miscTab = Window:MakeTab({
+    Name = "Misc",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Toggles
+luckTab:AddToggle({
+    Name = "Get Luck (laggy)",
+    Default = false,
+    Callback = function(Value)
+        getLuck = Value
+        startLuck()
+    end
+})
+luckTab:AddToggle({
+    Name = "Add Delay",
+    Default = true,
+    Callback = function(Value)
+        shouldDelay = Value
+    end
+})
+luckTab:AddToggle({
+    Name = "Get Luck Per Second (not as laggy)",
+    Default = false,
+    Callback = function(Value)
+        getLuckPerSecond = Value
+        startLuckPerSec()
+    end
+})
+rollTab:AddToggle({
+    Name = "Auto Roll",
+    Default = false,
+    Callback = function(Value)
+        autoRoll = Value
+        startRoll()
+    end
+})
+rollTab:AddToggle({
+    Name = "Fast Roll (lots and LOTS of money)",
+    Default = false,
+    Callback = function(Value)
+        fastRoll = Value
+        fastRollFunc()
+    end
+})
+rollTab:AddToggle({
+    Name = "Skip Auto Roll (only when you use fast roll too)",
+    Default = true,
+    Callback = function(Value)
+        autoSkip = Value
+    end
+})
+
+-- Buttons
+miscTab:AddButton({
+    Name = "Destroy Gui",
+    Callback = function()
+        OrionLib:Destroy()
+    end    
+})
+luckTab:AddButton({
+    Name = "Gain 100x Luck",
+    Callback = function()
+        giveLuckInstant()
+    end    
+})
+luckTab:AddButton({
+    Name = "Gain 1000x Luck (laggy if not delayed)",
+    Callback = function()
+        giveLuckInstantOp()
+    end    
+})
+luckTab:AddButton({
+    Name = "Gain 4000x Luck (May Crash Game if not delayed)",
+    Callback = function()
+        giveLuckInstantOpOp()
+    end    
+})
+
+OrionLib:Init()
+
+task.spawn(function()
+    while true do
+        local guiFrame = game.CoreGui:FindFirstChild("Orion"):FindFirstChildOfClass("Frame")
+        if guiFrame then
+            makeDraggable(guiFrame)
+            break
+        end
+        task.wait(0.1)
+    end
 end)
